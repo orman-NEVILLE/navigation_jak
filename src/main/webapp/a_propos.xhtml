@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="jakarta.faces.html">
+    <h:head>
+        <title>À propos</title>
+        <!-- Intégration de Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
+        <style>
+            body {
+                background: linear-gradient(to bottom, #ff0000 50%, #ffffff 50%);
+                height: 100vh;
+            }
+        </style>
+    </h:head>
+    <h:body>
+
+        <div class="container mt-5">
+            <div class="card shadow-lg p-4 border-danger">
+                <h1 class="text-center text-danger">Bienvenue sur notre application !</h1>
+                
+                <p class="text-muted text-center">
+                    Cette plateforme a été développée pour faciliter la gestion des lieux en permettant aux utilisateurs 
+                    d'ajouter et de consulter facilement des lieux avec leurs coordonnées géographiques.
+                </p>
+
+                <p class="text-center text-danger">
+                    <strong>Jakarta</strong>, la capitale de l'Indonésie, est une métropole dynamique et vibrante. 
+                    Elle est connue pour son mélange unique de culture, d'histoire et de modernité. 
+                    Jakarta est le centre économique, politique et culturel du pays, avec une population de plus de 10 millions d'habitants. 
+                    C'est une ville de contrastes où les gratte-ciel modernes se mélangent aux marchés traditionnels. 
+                    Explorez Jakarta et bien d'autres lieux grâce à notre application !
+                </p>
+
+                <div class="text-center mt-3">
+                    <h:button value="Retour à l'accueil" outcome="home.xhtml" styleClass="btn btn-danger"/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Intégration de Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    </h:body>
+</html>
